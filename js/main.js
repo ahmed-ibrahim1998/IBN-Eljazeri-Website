@@ -386,7 +386,7 @@ function translate(language) {
     let allDom = document.querySelectorAll("*");
 
     fetch(
-        `https://raw.githubusercontent.com/ahmed-ibrahim1998/IBN-Eljazeri-Website/master/languages/${lang}.json`
+        `https://raw.githubusercontent.com/ahmed-ibrahim1998/IBNEljazeriWebsite/master/languages/${lang}.json`
     )
         .then((response) => {
             return response.json();
