@@ -59,7 +59,7 @@ function onLoadLanguages() {
             mobile.setAttribute("placeholder", "ادخل رقم هاتفك");
             message.setAttribute("placeholder", "ادخل رسالتك");
             copyright.innerHTML = `تمت برمجتها بكل ال ❤ بواسطة
-      <a href="https://github.com/Mohamed-Waled" target="_blank"
+      <a href="https://github.com/ahmed-ibrahim1998" target="_blank"
         >م : محمد وليد</a
       >.`;
         } else {
@@ -78,7 +78,7 @@ function onLoadLanguages() {
             mobile.setAttribute("placeholder", "Your Phone");
             message.setAttribute("placeholder", "Tell Us About Your Needs");
             copyright.innerHTML = `coded with ❤ by
-      <a href="https://github.com/Mohamed-Waled" target="_blank"
+      <a href="https://github.com/ahmed-ibrahim1998" target="_blank"
         >Eng: mohamed waled</a
       >.`;
         }
@@ -386,7 +386,7 @@ function translate(language) {
     let allDom = document.querySelectorAll("*");
 
     fetch(
-        `https://raw.github.com/ahmed-ibrahim1998/IBN-Eljazeri-Website/languages/${lang}.json`
+        `https://raw.githubusercontent.com/ahmed-ibrahim1998/IBN-Eljazeri-Website/languages/${lang}.json`
     )
         .then((response) => {
             return response.json();
@@ -440,7 +440,7 @@ function changeLanguagesButton() {
             mobile.setAttribute("placeholder", "ادخل رقم هاتفك");
             message.setAttribute("placeholder", "ادخل رسالتك");
             copyright.innerHTML = `تمت برمجتها بكل ال ❤ بواسطة
-      <a href="https://github.com/Mohamed-Waled" target="_blank"
+      <a href="https://github.com/ahmed-ibrahim1998" target="_blank"
         >م : محمد وليد</a
       >.`;
         } else {
@@ -456,7 +456,7 @@ function changeLanguagesButton() {
             mobile.setAttribute("placeholder", "Your Phone");
             message.setAttribute("placeholder", "Tell Us About Your Needs");
             copyright.innerHTML = `coded with ❤ by
-      <a href="https://github.com/Mohamed-Waled" target="_blank"
+      <a href="https://github.com/ahmed-ibrahim1998" target="_blank"
         >Eng: mohamed waled</a
       >.`;
         }
@@ -476,7 +476,7 @@ function changeLanguagesButton() {
             mobile.setAttribute("placeholder", "ادخل رقم هاتفك");
             message.setAttribute("placeholder", "ادخل رسالتك");
             copyright.innerHTML = `تمت برمجتها بكل ال ❤ بواسطة
-      <a href="https://github.com/Mohamed-Waled" target="_blank"
+      <a href="https://github.com/ahmed-ibrahim1998" target="_blank"
         >م : محمد وليد</a
       >.`;
         } else {
@@ -492,7 +492,7 @@ function changeLanguagesButton() {
             mobile.setAttribute("placeholder", "Your Phone");
             message.setAttribute("placeholder", "Tell Us About Your Needs");
             copyright.innerHTML = `coded with ❤ by
-      <a href="https://github.com/Mohamed-Waled" target="_blank"
+      <a href="https://github.com/ahmed-ibrahim1998" target="_blank"
         >Eng: mohamed waled</a
       >.`;
         }
@@ -512,7 +512,7 @@ function changeLanguagesButton() {
             mobile.setAttribute("placeholder", "ادخل رقم هاتفك");
             message.setAttribute("placeholder", "ادخل رسالتك");
             copyright.innerHTML = `تمت برمجتها بكل ال ❤ بواسطة
-      <a href="https://github.com/Mohamed-Waled" target="_blank"
+      <a href="https://github.com/ahmed-ibrahim1998" target="_blank"
         >م : محمد وليد</a
       >.`;
         } else {
@@ -528,7 +528,7 @@ function changeLanguagesButton() {
             mobile.setAttribute("placeholder", "Your Phone");
             message.setAttribute("placeholder", "Tell Us About Your Needs");
             copyright.innerHTML = `coded with ❤ by
-      <a href="https://github.com/Mohamed-Waled" target="_blank"
+      <a href="https://github.com/ahmed-ibrahim1998" target="_blank"
         >Eng: mohamed waled</a
       >.`;
         }
