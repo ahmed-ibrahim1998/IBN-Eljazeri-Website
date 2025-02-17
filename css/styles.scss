@@ -2096,7 +2096,7 @@ header {
     background-image: url(../images/discount-background1.jpg);
     background-size: cover;
     color: $white-color;
-    flex-basis: 50%;
+    flex-basis: 30%;
     @include flexCenter();
     position: relative;
     z-index: 1;
@@ -2114,7 +2114,7 @@ header {
   }
   .form {
     @include flexCenter();
-    flex-basis: 50%;
+    flex-basis: 80%;
     padding-bottom: 50px;
     .input {
       display: block;
